@@ -1,0 +1,16 @@
+[
+{
+  "modid": "spawnablefluids",
+  "name": "Spawnable Fluids",
+  "description": "Small mod that adds tools to spawn source blocks of fluids that do not flow",
+  "version": "0.1",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["jordsta95"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
