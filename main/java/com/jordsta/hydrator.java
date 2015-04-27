@@ -23,7 +23,10 @@ public class hydrator extends Block {
 	
 	@Override
 	public Material getMaterial(){
-		return Material.water;
+		StackTraceElement[] stack = Thread.currentThread().getStackTrace();
+        	if(stack[2].getClassName().equals("net.minecraft.block.BlockFarmland"))
+            		return Material.water;
+        	return super.getMaterial();
 	}
 	
 	 public void onNeighborBlockChange(World world, int posX, int posY, int posZ, Block neighbourBlock){
